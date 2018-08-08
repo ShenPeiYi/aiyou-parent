@@ -166,6 +166,7 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.4</version>
         </dependency>
+        <!-- demo -->
     </dependencies>
 
 </project>
