@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aiyou-dao/aiyou-dao.iml" filepath="$PROJECT_DIR$/aiyou-dao/aiyou-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiyou-interface/aiyou-interface.iml" filepath="$PROJECT_DIR$/aiyou-interface/aiyou-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiyou-parent.iml" filepath="$PROJECT_DIR$/aiyou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiyou-pojo/aiyou-pojo.iml" filepath="$PROJECT_DIR$/aiyou-pojo/aiyou-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiyou-service/aiyou-service.iml" filepath="$PROJECT_DIR$/aiyou-service/aiyou-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiyou-web/aiyou-web.iml" filepath="$PROJECT_DIR$/aiyou-web/aiyou-web.iml" />
+    </modules>
+  </component>
+</project>

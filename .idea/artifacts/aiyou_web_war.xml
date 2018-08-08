@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aiyou-web:war">
+    <output-path>$PROJECT_DIR$/aiyou-web/target</output-path>
+    <root id="archive" name="aiyou-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="aiyou-web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:context="http://www.alibaba.com/schema/stat"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://code.alibabatech.com/schema/dubbo
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.alibaba.com/schema/stat http://www.alibaba.com/schema/stat.xsd">
+
+    <!-- dubbo应用的名称，一般为项目名称 -->
+    <dubbo:application name="aiyou-service" />
+    <!-- 配置dubbo的注册中心的地址-->
+    <dubbo:registry address="zookeeper://192.168.59.128:2181" />
+
+    <!-- 配置dubbo扫描类，将这个类作为服务进行发布-->
+    <dubbo:annotation package="com.spy.aiyou.service.impl" />
+
+</beans>
